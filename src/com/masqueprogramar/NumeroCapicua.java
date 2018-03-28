@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @author masqueprogramar (https://masqueprogramar.wordpress.com)
  * @date 23-marzo-2018
- * @description Programa que comprube si un número natural es capicua          
+ * @description Programa que compruebe si un número natural es capicua          
  * @version 1.0
  * @url https://masqueprogramar.wordpress.com/2018/03/23/numero-capicua-java/ 
  */
