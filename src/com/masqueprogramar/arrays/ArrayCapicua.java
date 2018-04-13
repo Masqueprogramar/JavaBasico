@@ -2,6 +2,14 @@ package com.masqueprogramar.arrays;
 
 import java.util.Scanner;
 
+/**
+ * @author masqueprogramar (https://masqueprogramar.wordpress.com)
+ * @date 13-abril-2018
+ * @description Programa en el que se pida al usuario un array de números enteros e indique en pantalla si dicho array es capicúa       
+ * @version 1.0
+ * @url https://masqueprogramar.wordpress.com/2018/04/13/array-capicua-java/ 
+ */
+
 public class ArrayCapicua {
 	
 	static Scanner sc = new Scanner(System.in);
@@ -13,9 +21,9 @@ public class ArrayCapicua {
         visualizar(numeros);
         System.out.println();
         if(esCapicuaWhile(numeros))
-            System.out.println("El array es capicua");
+            System.out.println("\nEl array es capicua");
         else
-            System.out.println("El array no es capicua");
+            System.out.println("\nEl array no es capicua");
 	}
 	
 	private static boolean esCapicuaWhile(int[] pArray){
