@@ -1,4 +1,4 @@
-package com.masqueprogramar.matematicas;
+package com.masqueprogramar;
 
 import java.util.Scanner;
 
