@@ -4,6 +4,14 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * @author masqueprogramar (https://masqueprogramar.wordpress.com)
+ * @date 05-febrero-2019
+ * @description Programa que convierte un array de String en un ArrayList     
+ * @version 1.0
+ * @url https://masqueprogramar.wordpress.com/2019/02/05/convertir-array-a-arraylist/
+ */
+
 public class ConvertirArrayArrayList {
 
 	public static void main(String[] args) {
