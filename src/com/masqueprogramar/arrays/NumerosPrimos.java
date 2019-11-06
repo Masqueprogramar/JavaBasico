@@ -31,7 +31,7 @@ public class NumerosPrimos {
 	private static boolean esPrimo(int num){
 		boolean primo = (num==1)?false:true;
 		int divisor=2;
-		while(primo && divisor<num/2){
+		while(primo && divisor<=Math.sqrt(num)){
 			if(num%divisor==0){
 				primo = false;
 			}

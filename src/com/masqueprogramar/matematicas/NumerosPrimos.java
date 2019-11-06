@@ -37,7 +37,7 @@ public class NumerosPrimos {
     private static boolean esPrimo(int num){
         boolean primo = true;
         int i = 2;
-        while(primo && i<num/2){
+        while(primo && i<=Math.sqrt(num)){
             if(num%i==0){
                 primo = false;
             }
